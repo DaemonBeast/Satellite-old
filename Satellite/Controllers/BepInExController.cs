@@ -33,7 +33,7 @@ public class BepInExController : ControllerBase
         this._httpClient = httpClient;
     }
     
-    [HttpGet("")]
+    [HttpGet]
     public async Task<ActionResult> GetDownloadLink(
         string backend,
         [FromQuery(Name = "build_id")] string? buildId,
