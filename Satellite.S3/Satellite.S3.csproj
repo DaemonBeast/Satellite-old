@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        
+        <Version>0.1.0</Version>
+        <Authors>Daemon</Authors>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Satellite.Core\Satellite.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.7.2" />
+      <PackageReference Include="AWSSDK.S3" Version="3.7.9.14" />
+      <PackageReference Include="DotNetEnv" Version="2.3.0" />
+    </ItemGroup>
+
+</Project>

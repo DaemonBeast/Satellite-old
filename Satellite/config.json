@@ -1,0 +1,13 @@
+﻿{
+    "Database": {
+        "Databases": [
+            "https://raw.githubusercontent.com/Astral-Mods/Astral.Database/main/database.json",
+            "https://raw.githubusercontent.com/DaemonBeast/Satellite.Database/main/database.json"
+        ]
+    },
+    "S3": {
+        "Enabled": true,
+        "ServiceUrl": "https://gateway.storjshare.io",
+        "BucketName": "satellite"
+    }
+}

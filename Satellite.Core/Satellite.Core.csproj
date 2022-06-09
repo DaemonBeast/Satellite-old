@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        
+        <Version>0.1.0</Version>
+        <Authors>Daemon</Authors>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="NuGet.Versioning" Version="6.2.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+    </ItemGroup>
+
+</Project>

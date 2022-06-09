@@ -124,6 +124,7 @@ public class BepInExController : ControllerBase
 
     private class DownloadLinkResponse
     {
+        [JsonPropertyName("link")]
         public string Link { get; }
 
         public DownloadLinkResponse(string link)
@@ -134,6 +135,7 @@ public class BepInExController : ControllerBase
 
     private class ErrorResponse
     {
+        [JsonPropertyName("error")]
         public string Error { get; }
 
         public ErrorResponse(Exception e)
